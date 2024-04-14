@@ -160,6 +160,16 @@ body{
     line-height: 43px;
     color: rgb(32, 33, 36);
 }
+ .box > p::after{
+    content: "";
+    height:5px ;
+    width: 50%;
+    background:#E3E3E3 ;
+    display: block;
+    position: absolute;
+    top: 113%;
+    right: 8%;
+} 
 .type{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -315,7 +325,7 @@ body{
     flex-direction:row;
     align-items: center;  
      cursor: pointer;
-     margin-top: -6.25%;
+     margin-top:-6.78%;
 }
 .find > img {
     height: 18px;
